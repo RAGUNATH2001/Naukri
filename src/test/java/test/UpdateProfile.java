@@ -12,6 +12,7 @@ import Base.BaseTest;
 import Pages.DashBoardPage;
 import Pages.HomePage;
 import Pages.LoginPage;
+import io.restassured.RestAssured;
 
 public class UpdateProfile extends BaseTest {
 	
@@ -34,7 +35,7 @@ public class UpdateProfile extends BaseTest {
 	
 	
 	@Test
-	public void verify() {
+	public void testUpdatedProfile() {
 		
 		dashobj.VerifyPageTitle();
 		dashobj.verifyLogo();
@@ -51,6 +52,8 @@ public class UpdateProfile extends BaseTest {
 	//	homeobj.VerifyProfileName();
 		
 	}
+	
+	
 	
 	
 	

@@ -2,19 +2,19 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-01T21:46:45 IST" name="Suite" finished-at="2024-03-01T21:47:00 IST" duration-ms="15296">
+  <suite started-at="2024-03-02T07:24:13 IST" name="Suite" finished-at="2024-03-02T07:24:33 IST" duration-ms="20267">
     <groups>
     </groups>
-    <test started-at="2024-03-01T21:46:45 IST" name="Test" finished-at="2024-03-01T21:47:00 IST" duration-ms="15296">
+    <test started-at="2024-03-02T07:24:13 IST" name="Test" finished-at="2024-03-02T07:24:33 IST" duration-ms="20267">
       <class name="test.UpdateProfile">
-        <test-method is-config="true" signature="initlization()[pri:0, instance:test.UpdateProfile@4de4b452]" started-at="2024-03-01T21:46:45 IST" name="initlization" finished-at="2024-03-01T21:46:54 IST" duration-ms="9274" status="PASS">
+        <test-method is-config="true" signature="initlization()[pri:0, instance:test.UpdateProfile@fba92d3]" started-at="2024-03-02T07:24:13 IST" name="initlization" finished-at="2024-03-02T07:24:22 IST" duration-ms="9372" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initlization -->
-        <test-method signature="verify()[pri:0, instance:test.UpdateProfile@4de4b452]" started-at="2024-03-01T21:46:54 IST" name="verify" finished-at="2024-03-01T21:47:00 IST" duration-ms="5972" status="PASS">
+        <test-method signature="testUpdatedProfile()[pri:0, instance:test.UpdateProfile@fba92d3]" started-at="2024-03-02T07:24:22 IST" name="testUpdatedProfile" finished-at="2024-03-02T07:24:29 IST" duration-ms="6618" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify -->
+        </test-method> <!-- testUpdatedProfile -->
       </class> <!-- test.UpdateProfile -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
