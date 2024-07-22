@@ -1,3 +1,7 @@
+Pages\DashBoardPage.class
+utility\WebEvent.class
 Base\BaseTest.class
-Pages\HomePage.class
+test\UpdateProfile.class
 Pages\LoginPage.class
+Pages\HomePage.class
+utility\Listener.class
