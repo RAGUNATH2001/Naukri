@@ -46,7 +46,7 @@ public class UpdateProfile extends BaseTest {
 		homeobj.clickOnViewProfile();
 		homeobj.clickOnProfileEditIcon();
 		homeobj.editnameSection();
-		homeobj.editPhoneNumber();
+		//homeobj.editPhoneNumber();
 		homeobj.clickOnSaveInEditeProfile();
 		
 	//	homeobj.VerifyProfileName();

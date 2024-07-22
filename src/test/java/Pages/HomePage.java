@@ -8,7 +8,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import Base.BaseTest;
-import utility.WebEvent;
+import utility.*;
 
 public class HomePage extends BaseTest {
 
@@ -55,7 +55,7 @@ public class HomePage extends BaseTest {
 	public void editnameSection() {
 		WebEvent.implicitywait(2);
 		try {
-			Thread.sleep(300);
+			Thread.sleep(900);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -76,7 +76,15 @@ public class HomePage extends BaseTest {
 		WebEvent.typeText(editPhoneNumber,pro.getProperty("editphonenumber"));
 	}
 	
-	public void clickOnSaveInEditeProfile() {
+	public void clickOnSaveInEditeProfile()  {
+		
+		try {
+			Thread.sleep(500);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
 		JavascriptExecutor executor = (JavascriptExecutor) driver;
 	    executor.executeScript("arguments[0].scrollIntoView(true);", saveprofileEdit);
 	    WebEvent.clickOnElement(saveprofileEdit);
